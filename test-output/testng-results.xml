@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34582" started-at="2019-08-07T13:07:20Z" finished-at="2019-08-07T13:07:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34582" started-at="2019-08-07T13:07:20Z" finished-at="2019-08-07T13:07:55Z">
+      <class name="Com.Google.Selenium.Test.TestNGDemo">
+        <test-method status="PASS" signature="Open()[pri:0, instance:Com.Google.Selenium.Test.TestNGDemo@457e2f02]" name="Open" is-config="true" duration-ms="9818" started-at="2019-08-07T13:07:20Z" finished-at="2019-08-07T13:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Com.Google.Selenium.Test.TestNGDemo@457e2f02]" name="Login" duration-ms="23422" started-at="2019-08-07T13:07:30Z" finished-at="2019-08-07T13:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Com.Google.Selenium.Test.TestNGDemo@457e2f02]" name="afterMethod" is-config="true" duration-ms="1308" started-at="2019-08-07T13:07:53Z" finished-at="2019-08-07T13:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Com.Google.Selenium.Test.TestNGDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
