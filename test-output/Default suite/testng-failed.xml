@@ -5,9 +5,9 @@
     <classes>
       <class name="Com.Google.Selenium.Test.TestNGDemo">
         <methods>
-          <include name="afterMethod"/>
+          <include name="OpenURL"/>
           <include name="Login"/>
-          <include name="Open"/>
+          <include name="CloseBrowser"/>
         </methods>
       </class> <!-- Com.Google.Selenium.Test.TestNGDemo -->
     </classes>
