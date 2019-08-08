@@ -2,17 +2,17 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3105" started-at="2019-08-08T07:59:29Z" finished-at="2019-08-08T07:59:32Z">
+  <suite name="Default suite" duration-ms="2858" started-at="2019-08-08T08:09:31Z" finished-at="2019-08-08T08:09:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3105" started-at="2019-08-08T07:59:29Z" finished-at="2019-08-08T07:59:32Z">
+    <test name="Default test" duration-ms="2858" started-at="2019-08-08T08:09:31Z" finished-at="2019-08-08T08:09:34Z">
       <class name="Com.Google.Selenium.Test.TestNGDemo">
-        <test-method status="FAIL" signature="OpenURL()[pri:0, instance:Com.Google.Selenium.Test.TestNGDemo@457e2f02]" name="OpenURL" is-config="true" duration-ms="3047" started-at="2019-08-08T07:59:29Z" finished-at="2019-08-08T07:59:32Z">
+        <test-method status="FAIL" signature="OpenURL()[pri:0, instance:Com.Google.Selenium.Test.TestNGDemo@457e2f02]" name="OpenURL" is-config="true" duration-ms="2782" started-at="2019-08-08T08:09:31Z" finished-at="2019-08-08T08:09:34Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: Chrome version must be between 70 and 73
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.33 seconds
+Command duration or timeout: 1.16 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ABDELRAHMAN-ATE', ip: '192.168.17.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver]]>
@@ -20,7 +20,7 @@ Driver info: driver.version: ChromeDriver]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: Chrome version must be between 70 and 73
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.33 seconds
+Command duration or timeout: 1.16 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ABDELRAHMAN-ATE', ip: '192.168.17.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver
@@ -87,12 +87,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenURL -->
-        <test-method status="SKIP" signature="Login()[pri:0, instance:Com.Google.Selenium.Test.TestNGDemo@457e2f02]" name="Login" duration-ms="0" started-at="2019-08-08T07:59:32Z" finished-at="2019-08-08T07:59:32Z">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Com.Google.Selenium.Test.TestNGDemo@457e2f02]" name="Login" duration-ms="0" started-at="2019-08-08T08:09:34Z" finished-at="2019-08-08T08:09:34Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created: Chrome version must be between 70 and 73
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.33 seconds
+Command duration or timeout: 1.16 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ABDELRAHMAN-ATE', ip: '192.168.17.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver]]>
@@ -100,7 +100,7 @@ Driver info: driver.version: ChromeDriver]]>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: Chrome version must be between 70 and 73
   (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.33 seconds
+Command duration or timeout: 1.16 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'ABDELRAHMAN-ATE', ip: '192.168.17.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
 Driver info: driver.version: ChromeDriver
@@ -167,7 +167,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="SKIP" signature="CloseBrowser()[pri:0, instance:Com.Google.Selenium.Test.TestNGDemo@457e2f02]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2019-08-08T07:59:32Z" finished-at="2019-08-08T07:59:32Z">
+        <test-method status="SKIP" signature="CloseBrowser()[pri:0, instance:Com.Google.Selenium.Test.TestNGDemo@457e2f02]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2019-08-08T08:09:34Z" finished-at="2019-08-08T08:09:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
